@@ -1,4 +1,4 @@
-let url = "https://wedding-invitation-firli-wildan.vercel.app/";
+let url = "https://dahlia-samsi.vercel.app/";
 document.getElementById("url").value = url;
 
 const copy = () => {
@@ -6,7 +6,7 @@ const copy = () => {
 };
 
 document.getElementById("tujuan").addEventListener("keyup", () => {
-  url = "https://wedding-invitation-firli-wildan.vercel.app/?u=";
+  url = "https://dahlia-samsi.vercel.app/?to=";
   url += encodeURIComponent(document.getElementById("tujuan").value);
   document.getElementById("url").value = url;
   document.getElementById("copy-url").innerText = "Copy";
